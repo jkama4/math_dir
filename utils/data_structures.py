@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 from typing import List, Dict, Tuple, Optional
 
-class Graph:
+class Graph():
     def __init__(self):
         self.nodes: List[int] = []
         self.edges: Dict[int, Dict[int, int]] = {}
