@@ -107,7 +107,7 @@ class Parabola():
 class SimpleNeuralNetwork():
     """
     Neural Network containing 2 hidden layers with 16 and 8 nodes respectively, and 1 output node"""
-    def __init__(self, X: np.array, epochs: int, lr: float) -> None:
+    def __init__(self, X: np.array) -> None:
         self.X = X
         self.n = [self.X.shape[0], 16, 8, 1]
         self.W1 = np.random.rand(self.n[0], self.n[1])
@@ -116,9 +116,6 @@ class SimpleNeuralNetwork():
         self.b2 = np.random.rand(1, self.n[2])
         self.W3 = np.random.rand(self.n[2], self.n[3])
         self.b3 = np.random.rand(1, self.n[3])
-
-        self.epochs = epochs
-        self.lr = lr
 
 
     def softmax(self, Z: np.array) -> np.array:
