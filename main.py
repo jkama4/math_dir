@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-import utils.math_structures as ms
-import utils.math_functions as mf
-import utils.data_structures as ds
+import math_files.math_structures as ms
+import math_files.math_functions as mf
+import math_files.data_structures as ds
 
 point_a: ms.Point = ms.Point(x_val=3, y_val=6)
 point_b: ms.Point  = ms.Point(x_val=7, y_val=1)

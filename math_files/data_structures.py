@@ -1,10 +1,9 @@
 import math
 import random
 
-import numpy as np
 import matplotlib.pyplot as plt
 
-from typing import List, Dict, Tuple, Optional
+from typing import List, Dict
 
 class Graph():
     def __init__(self):
