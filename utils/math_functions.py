@@ -1,9 +1,7 @@
-import math
-
 import numpy as np
 import matplotlib.pyplot as plt
 
-from typing import List, Dict, Tuple, Optional
+from typing import Dict, Tuple, Optional
 
 class LinearFunction():
     def __init__(self, x: float, slope: float, intercept: float):
